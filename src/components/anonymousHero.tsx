@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type Argument = {
   title: string;
   description: string;
@@ -52,13 +54,13 @@ export default function AnonymousHero() {
             </p>
           </div>
           <div className="pt-40 md:pt-96 lg:pt-96 pl-4">
-            <a href="/tutorial" className="inline-flex items-center py-3 px-5 font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <Link href="/tutorial" className="inline-flex items-center py-3 px-5 font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
                 Tutorial
                 <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-            </a>
-            <a href="/documentation" className="ml-4 inline-flex items-center py-3 px-5 font-medium text-center text-white rounded-lg bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-900 dark:bg-grey-600 dark:hover:bg-grey-700 dark:focus:ring-gray-800">
+            </Link>
+            <Link href="/documentation" className="ml-4 inline-flex items-center py-3 px-5 font-medium text-center text-white rounded-lg bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-900 dark:bg-grey-600 dark:hover:bg-grey-700 dark:focus:ring-gray-800">
                 Read the docs
-            </a>
+            </Link>
           </div>
         </div> 
       </div>
