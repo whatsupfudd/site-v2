@@ -6,7 +6,7 @@ import Footer from "~/components/footer"
 
 type ProjectDesc = {
   label: string
-  , description : JSX.Element
+  , description : string
   , destUrl : string
   , image : string
 }
