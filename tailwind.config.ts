@@ -6,6 +6,7 @@ export default {
     "./src/**/*.tsx"
     , "./node_modules/flowbite/**/*.js"
     , "./pages/**/*.{ts,tsx}"
+    , "./pages/**/*.md"
     , "./public/**/*.html"
   ]
   , theme: {
