@@ -71,7 +71,7 @@ export default function ImplementationPage() {
           that gets compiled into very efficient Javascript and is especially powerful for client-side development, inspiring
           many of the current trends in web development. Unfortunately it has lost its way in the last few years and the
           development of the compiler has stalled. We&apos;ll move it forward in a project called Fuddle. Fuddle will keep the
-          simplicity of Elm, but we'll improve its client-side DOM management system, open it to the rest of the Javascript
+          simplicity of Elm, but we&apos;ll improve its client-side DOM management system, open it to the rest of the Javascript
           world, add more support for server-side programming, and make the packaging and deployment of Elm applications more
           flexible.
         </p>
