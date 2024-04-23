@@ -68,17 +68,20 @@ function DarkModeToggle() {
   )
 }
 
-export default function Navigation( { currentItem = "HOME", isLogged = false } : { currentItem? : string, isLogged? : boolean }) {
-  const menuItems : MenuItem[] = [
-    {
+/*
+    , {
       label: "Try!"
       , key: "TRY"
       , destUrl: "/try"
     }
-    , {
-      label: "Examples"
-      , key: "EXAMPLES"
-      , destUrl: "/examples"
+*/
+
+export default function Navigation( { currentItem = "HOME", isLogged = false } : { currentItem? : string, isLogged? : boolean }) {
+  const menuItems : MenuItem[] = [
+    {
+      label: "Concepts"
+      , key: "CONCEPTS"
+      , destUrl: "/concepts"
     }
     , {
       label: "Tutorial"

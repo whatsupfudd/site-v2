@@ -5,7 +5,9 @@ import Footer from "~/components/footer"
 export default function TutorialPage() {
   return (<>
     <Navigation currentItem={"TUTORIAL"} isLogged={false} />
-    <p className="text-4xl font-bold text-center text-black dark:text-white">TUTORIAL</p>
+    <div className="py-8 flex justify-center flex-col text-black dark:text-white">
+      <h1 className="mt-4 text-4xl font-bold text-center">TUTORIAL</h1>
+    </div>
     <Footer />
   </>)
 }
