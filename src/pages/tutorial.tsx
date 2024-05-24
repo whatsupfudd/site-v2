@@ -64,7 +64,7 @@ export default function TutorialPage() {
       </div>
       <p className="mb-6 py-3">
       Connect to the machine you have launched the docker components on, and load:<br />
-      <span className="px-6 text-primary-800 dark:text-primary-100">http://&lt;<i>your_containers_host</i>&gt;:9980/lab</span>
+      <span className="px-6 text-primary-800 dark:text-primary-100">http://&lt;<i>your_containers_host</i>&gt;:9980/lab/tree/PracticalHaskell.ipynb</span>
       <br />
       with password <span className="text-rose-900 dark:text-rose-100">fuddfudd </span> to login to the notebook
       </p>
