@@ -20,47 +20,47 @@ export default function TutorialPage() {
         (<span className="text-red-700 dark:text-red-500">warning: you probably will have to fix the indentation in your compose file</span>):
         </p>
         <div className="w-3/4 overflow-x-auto bg-blue-100 dark:bg-blue-900">
-        <div class="whitespace-pre">
-        services:
-        <div className="px-5">
-          nginx:<br />
-          <div className="px-5">
-            restart: always<br />
-            image: whatsupfudd/jupytell:1.1<br />
-            ports:<br />
+          <pre className="whitespace-pre">
+            services:
             <div className="px-5">
-              - &quot;9980:80&quot;<br />
-              - &quot;9443:443&quot;<br />
-        </div>
-            volumes:<br />
-            <div className="px-5">
-              - &quot;/usr/share/nginx/html&quot;<br />
-              - &quot;/etc/nginx/certs&quot;<br />
-              </div>
-            networks:<br />
-            <div className="px-5">
-              - proxies<br />
-              </div>
-        </div>
-        </div>
-        <br />
-        <div className="px-5">
-          jupyter:<br />
-          <div className="px-5">
-            restart: always<br />
-            image: whatsupfudd/intro1:1.3<br />
-            networks:<br />
-            <div className="px-5">
-              - proxies<br />
+              nginx:<br />
+              <div className="px-5">
+                restart: always<br />
+                image: whatsupfudd/jupytell:1.1<br />
+                ports:<br />
+                <div className="px-5">
+                  - &quot;9980:80&quot;<br />
+                  - &quot;9443:443&quot;<br />
             </div>
-          </div>
-          </div>
-        <br />
-          networks:<br />
-          <div className="px-5">
-            proxies:<br />
+                volumes:<br />
+                <div className="px-5">
+                  - &quot;/usr/share/nginx/html&quot;<br />
+                  - &quot;/etc/nginx/certs&quot;<br />
                   </div>
-        </div>
+                networks:<br />
+                <div className="px-5">
+                  - proxies<br />
+                  </div>
+            </div>
+            </div>
+            <br />
+            <div className="px-5">
+              jupyter:<br />
+              <div className="px-5">
+                restart: always<br />
+                image: whatsupfudd/intro1:1.3<br />
+                networks:<br />
+                <div className="px-5">
+                  - proxies<br />
+                </div>
+              </div>
+              </div>
+            <br />
+              networks:<br />
+              <div className="px-5">
+                proxies:<br />
+              </div>
+        </pre>
       </div>
       <p className="mb-6  my-6">
       To see the non-interactive version, follow the link:
