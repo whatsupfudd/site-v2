@@ -16,11 +16,11 @@ export default function TutorialPage() {
         </p>
         <p className="mb-6">
         The introduction runs in an interactive Jupyter Notebook to make your life more interesting! Use the following
-        Docker Compose config file to get on it, with password <span className="text-rose-900 dark:text-rose-100">fuddfudd </span> to login to the notebook
+        Docker Compose config file to get on it
         (<span className="text-red-700 dark:text-red-500">warning: you probably will have to fix the indentation in your compose file</span>):
         </p>
-        <div className="w-3/4 overflow-x-auto bg-blue-100 dark:bg-blue-900">
-          <pre className="whitespace-pre">
+        <div className="w-1/2 overflow-x-auto bg-blue-100 dark:bg-blue-900">
+          <pre className="rounded whitespace-pre">
             services:
             <div className="px-5">
               nginx:<br />
@@ -62,7 +62,13 @@ export default function TutorialPage() {
               </div>
         </pre>
       </div>
-      <p className="mb-6  my-6">
+      <p className="mb-6 py-3">
+      Connect to the machine you have launched the docker components on, and load:<br />
+      <span className="px-6 text-primary-800 dark:text-primary-100">http://&lt;<i>your_containers_host</i>&gt;:9980/lab</span>
+      <br />
+      with password <span className="text-rose-900 dark:text-rose-100">fuddfudd </span> to login to the notebook
+      </p>
+      <p className="mb-6 my-6">
       To see the non-interactive version, follow the link:
       </p>
       <Link href="/practical-haskell-1.html" className="inline-flex items-center py-3 px-5 font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
