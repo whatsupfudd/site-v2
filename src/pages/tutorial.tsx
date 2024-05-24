@@ -9,7 +9,7 @@ export default function TutorialPage() {
     <div className="py-8 flex justify-center flex-col text-black dark:text-white">
       <h1 className="mt-4 text-4xl font-bold text-center">TUTORIAL</h1>
       <section className="max-w-screen-xl px-10 py-8 md:px-15 lg:px-20 text-lg">
-        <h2 className="text-2xl mb-4">Practical introduction to web application developement with Haskell</h2>
+        <h1 className="text-3xl py-4 text-primary-700 dark:text-primary-400">Practical introduction to web application developement with Haskell</h1>
         <p className="mb-6">
         Use this to find out more about real-life Haskell work for implementing modern web applications that rely
         on Tailwind CSS, HTMX, SQL database, JWT security, Javascript frameworks and etc.
