@@ -1,15 +1,56 @@
 import Navigation from "~/components/navigation"
+import { FuddBrand } from "~/components/styling"
 
 export default function DaniellPage() {
   return (<>
     <Navigation currentItem={"DANIELL"} />
     <section className="text-black dark:text-white">
       <h1 className="text-4xl text-center py-4 text-rose-900 dark:text-rose-400">Daniell</h1>
-      <h2 className="text-xl text-center pb-4">A fast and versatile website builder compatible with Hugo, Next.js and Gatsby.</h2>
-
-      <div className="px-6">
-      <p>The <b>Daniell</b> project is available on <a className="bg-primary-100 dark:bg-primary-900" href="https://github.com/whatsupfudd/daniell">Github</a>.
+      <h2 className="text-3xl text-center pb-4">A fast and versatile website builder compatible with Hugo, Next.js and Gatsby.</h2>
+      <p className="px-6">
+      Daniell aims to be the main contact point for the <FuddBrand /> overall functionality. It is inspired from many tools from
+      the past, such as NeXT&apos;s Interface Builder and Xerox&apos; SmallTalk, as well as from the present, such as Phoenix and NextJS.
+      The core functionalities it provides are project scaffholding, asset management, structuring, continuous development and
+      runtime introspection.
       </p>
+      <p className="px-6 py-3">
+      Daniell is not there to replace the IDE, but rather to complement it with a web-based UI that is optimized for the
+      high-frequency develop/review/experiment typical of web application development.
+      </p>
+      <p className="px-6 py-3">
+      FUDD philosophy is to add more power to the development ecosystems as an evolutionary process. As such, Daniell is
+      compatible with the most popular frameworks, such as Hugo, NextJS, Gatsby and even Wordpress (with EasyWordy).
+      The idea is to be able to use
+      what is already available in terms of themes, web apps and logic, and to add further with minimal friction new
+      pieces that are based on the more powerful technology.
+      </p>
+      <p className="px-6 py-3">
+      The starting point for <b>Daniell</b> is modern static sites with highy configurable theming. The largest theme availability
+      for static web sites is for the <a className="rounded bg-primary-100 dark:bg-primary-900" href="https://gohugo.io">Hugo</a> generator.
+      <b>Daniell</b> can thus take a Hugo website structure and produce a static website out of it, really quickly. And then you
+      can extend the website with the rest of the FUDD tools, adding more dynamic and powerful templates with Fuddle code, easy linkage
+      to database-held content, manage assets through Daniell web UI, etc.
+      </p>
+      <p className="px-6 py-3">
+      <b>Daniell</b> also comes with <a className="rounded bg-primary-100 dark:bg-primary-900" href="https://www.gatsbyjs.com/">Gatsby</a> compatibility. While the Hugo support is completely written within <b>Daniell</b>, the Gatsby support is implemented by driving the
+      Gatsby tools. The advantages of <b>Daniell</b> shows up when you integrate further pieces like simpler yet more powerful Jinja templates
+      that <b>Daniell</b> can merge toward the final static HTML result.
+      </p>
+      <p className="px-6 py-3">
+      Finally <b>Daniell</b> can also work with NextJS site for producing both static and dynamic web applications. It is especially
+      interesting when working with NextJS to use <b>Daniell</b> web UI to analyse a site, explore the routing and understand
+      what the end-result will be without actually having to interact with each route itself.
+      </p>
+      <p className="px-6 py-3">
+      Then you can use <b>Daniell</b> on its own. The web UI provides a way to quickly develop the structure of a web app
+      from a tree-manager and simple assembly of <a className="rounded bg-primary-100 dark:bg-primary-900" href="https://flowbite.com">FlowBite</a> building blocks that are mapped into HTMX-based endpoints. Your templates easily
+      gain logic by adding some Fuddle code, which is checked during development time but interpreted at runtime instead of compiled. The
+      Fuddle compiler is lighting fast and does instant refresh of your browser&apos;s content as you modify the templates or logic.
+      </p>
+      <div className="px-6">
+      <p>The <b>Daniell</b> project is available on <a className="rounded bg-primary-100 dark:bg-primary-900" href="https://github.com/whatsupfudd/daniell">Github</a>.
+      </p>
+      <h2 className="text-3xl text-center py-4">Development Note, Hugo compatibility.</h2>
       <h3 className="pt-4 text-2xl" id="the-general-logic-is-to">The general logic is to:</h3>
       <ul className="px-4 list-outside list-disc">
       <li>
