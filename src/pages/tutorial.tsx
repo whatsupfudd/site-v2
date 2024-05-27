@@ -19,7 +19,7 @@ export default function TutorialPage() {
         Docker Compose config file to get on it
         (<span className="text-red-700 dark:text-red-500">warning: you probably will have to fix the indentation in your compose file</span>):
         </p>
-        <div className="w-1/2 overflow-x-auto bg-blue-100 dark:bg-blue-900">
+        <div className="overflow-x-auto bg-blue-100 dark:bg-blue-900">
           <pre className="rounded whitespace-pre">
             services:
             <div className="px-5">
