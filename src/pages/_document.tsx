@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import { Analytics } from '@vercel/analytics/react';
 
 
 export default function Document() {
@@ -15,7 +14,6 @@ export default function Document() {
         <NextScript />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js" async></script>
         <script src="/js/modeSwitcher.js" async></script>
-        <Analytics />
       </body>
     </Html>
   )
