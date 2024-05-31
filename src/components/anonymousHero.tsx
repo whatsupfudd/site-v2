@@ -23,6 +23,13 @@ function ShowArguments({ args }: { args: Argument[] }) {
   )
 }
 
+export function WorkInProgress() {
+  return (<>
+    <p className="p-6 rounded-xl border border-primary-700 border-4 text-gray-900 dark:text-gray-100">
+      <span className="text-primary-700 dark:text-primary-300">WARNING: </span> this project is very much <b className="text-red-400">work in progress!!</b>
+    </p>
+  </>)
+}
 
 export default function AnonymousHero() {
   const allArguments: Argument[] = [
@@ -39,8 +46,8 @@ export default function AnonymousHero() {
       description: "Open your mind to the future of software development. The FUDD ecosystem has so much technology that has barely been pushed to its real potential. We are here to help you understand and use these technologies to build amazing things."
     },
   ]
-  
-  
+
+
   return (<>
     <section className="h-[50vh] md:h-[70vh] lg:h-[70vh] bg-[url('/img/bugOnAJourney_2.jpg')] bg-no-repeat bg-cover bg-center">
       <div className="mx-auto max-w-screen-xl text-white z-1">
@@ -62,9 +69,10 @@ export default function AnonymousHero() {
                 Read the docs
             </Link>
           </div>
-        </div> 
+        </div>
       </div>
     </section>
     <ShowArguments args={ allArguments } />
+    <WorkInProgress />
   </>)
 }
