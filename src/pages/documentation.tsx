@@ -139,7 +139,7 @@ export default function DocumentationPage() {
     <section className="py-8 text-black dark:text-white">
       <h1 className="text-center text-2xl">Projects</h1>
       <hr className="my-4" />
-      <div className="gap-10 flex flex-cols md:grid md:grid-cols-3 lg:grid lg:grid-cols-3">
+      <div className="gap-10 flex flex-cols grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
         {
           projects.map((p, idx) =>
             <ProjectCard proj={ p } key={idx}/>

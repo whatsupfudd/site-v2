@@ -8,7 +8,7 @@ const blogPost : BlogContent = {
   , postDate : "18 June 2014"
   , techPostDate : "2024-06-18"
   , title : "HR implications of Statistical Coding"
-  , intro : "Predicting the effect on the job market of the advent of generative AI&apos;s Statistical Coding."
+  , intro : "Predicting the effect on the job market of the advent of generative AI's Statistical Coding."
 }
 
 

@@ -46,8 +46,8 @@ export function BlogPostRender( { bpost } : { bpost : BlogContent }) {
               <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">{ bpost.title }</h1>
           </header>
           <p className="lead">{ bpost.intro }</p>
-          <p>This will eventually be the real content for this article on the future of HR, but for now it&apos;s a filler taken from the good folks at FlowByte...</p>
-          <p>But then I found a <a href="https://flowbite.com">component library based on Tailwind CSS called
+          <p>This will eventually be the real content for this article on the future of HR, but for now it&apos;s a filler taken from the good folks at Flowbite...</p>
+          <p>... and here is the <a href="https://flowbite.com">component library based on Tailwind CSS called
                   Flowbite</a>. It comes with the most commonly used UI components, such as buttons, navigation
               bars, cards, form elements, and more which are conveniently built with the utility classes from
               Tailwind CSS.</p>

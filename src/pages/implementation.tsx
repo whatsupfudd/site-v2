@@ -2,7 +2,7 @@ import Navigation from "~/components/navigation"
 import Footer from "~/components/footer"
 
 import { ShowImplementation } from "~/components/implItems"
-import { CuteLink, FuddBrand, FuddEco, NextPage, PreviousPage } from "~/components/styling"
+import { CuteLink, FuddBrand, FuddEco, FuddleBrand, PreviousPage } from "~/components/styling"
 
 export default function ImplementationPage() {
   return (<>
@@ -72,14 +72,13 @@ export default function ImplementationPage() {
           for the developers when they are browsing the ecosystem (discussions about <i>monads</i> being the most typical example of that).
         </p>
         <p className="mt-5">
-          To ease the shock of having Haskell as the core language, we also provide a fork of the Elm language as a
-          simpler and more immediate scripting solution that can also ease the discovery of functional programming. While Elm
-          is already a very good language that gets compiled into very efficient Javascript and is especially powerful for
+          To ease the shock of having Haskell as the core language, we developped <FuddleBrand />, a fork of the Elm language that provides a
+          simpler and more immediate scripting solution that can also ease the discovery of functional programming. Elm
+          is already a very good language that gets compiled into efficient Javascript and that is especially powerful for
           client-side development, inspiring many of the current trends in web development. Unfortunately it has lost its way
-          in the last few years and the development of the compiler has stalled. We&apos;ll move it forward in a project called
-          Fuddle. Fuddle will keep the simplicity of Elm, but we&apos;ll improve its client-side DOM management system, open it
-          to the rest of the Javascript world, add more support for server-side programming, and make the packaging and deployment
-          of Elm applications more flexible.
+          in the last few years and the development of the core components has stalled. Fuddle will keep the simplicity of Elm, but we&apos;ll improve its client-side DOM management system, open it
+          to the rest of the Javascript world, add more support for server-side utilization, and make the packaging and deployment
+          of web applications more flexible.
         </p>
         <h2 className="text-2xl mt-6 text-primary-700 dark:text-primary-400">Web frameworks</h2>
         <p className="mt-5">
@@ -93,7 +92,7 @@ export default function ImplementationPage() {
           <li>get developers to achieve significantly more impressive results</li>
         </ul>
         <p className="mt-5">
-          THen hopefully we can get momentum and build a community that will deliver significant momentum acceleration to the industry.
+          Then hopefully we can get momentum and build a community that will deliver significant momentum acceleration to the industry.
         </p>
         <p className="mt-5">
           Elm and Haskell provide without a doubt the fire power to deliver on the third point. Elm is html-and-logic blending at its
@@ -102,8 +101,8 @@ export default function ImplementationPage() {
           to create value.
         </p>
         <p className="mt-5">
-          The basis for <FuddBrand /> winning over the React and NextJS developers is its <b>Daniell</b> website builder. For a start,
-          <b>Daniell</b> will support the Hugo, Angular and NextJS structures and generates a ready-to-run website super fast. As expected
+          The basis for <FuddBrand /> winning over the React and NextJS developers is its <b>Daniell</b> website builder. For a start,&nbsp;
+          <b>Daniell</b> will support the Hugo, Gatsby and NextJS structures and generates a ready-to-run website super fast. As expected
           it provides a live server, with much faster hot reload than NextJS and Gatsby. But it also follows the Phoenix approach and
           provides a built-in IDE for
           easier project and resource management, as well as an introspection UI for faster issue resolution. <b>Daniell</b> brings in
@@ -114,16 +113,16 @@ export default function ImplementationPage() {
         </p>
         <p className="mt-5">
           To speedup the development of web applications, <b>Daniell</b> comes with builtin support for the <i>Tailwind CSS</i> styling
-          package and the <i>FlowBite</i> UI block code library. It facilitates and speeds up the creation of a modern and responsive
+          package and the <i>Flowbite</i> UI block code library. It facilitates and speeds up the creation of a modern and responsive
           user interface without complicated UI components, and analyze CSS rules to help debug visual errors.
         </p>
         <p className="mt-5">
-          When it comes to deploying a web application in production, an optimized runtime of <b>Daniell</b> based on the <i>Servant</i>
+          When it comes to deploying a web application in production, an optimized runtime of <b>Daniell</b> based on the <i>Servant</i>&nbsp;
           framework comes in the picture. This runtime is extremely performant, secure and scalable due to its distributed computing
           design. It is also extensible to support a wide range of web application requirements.
         </p>
         <p className="mt-5">
-          But Hugo, Angular and NextJS are only used for a minorty of the websites in the world; the real player is Wordpress... So <FuddBrand />
+          But Hugo, Gatsby and NextJS are only used for a minorty of the websites in the world; the real player is Wordpress... So <FuddBrand />
           brings the <b>EasyWordy</b> project to create a drop-in replacement of the PHP-based Wordpress that is much more secure and performant,
           and open up the door to a smooth evolution of Wordpress sites to more advanced technology. The <b>EasyWordy</b> server uses a Haskell version
           of Wordpress logic and API, and cooperates with an integrated PHP engine to run existing plugins and themes. But the idea is not

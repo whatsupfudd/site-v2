@@ -27,7 +27,7 @@ const blogArticles : BlogArticle[] = [
     category: "Article"
     , title: "Code Complexity Metrics"
     , description: "Putting the foundations for analyzing the effort that have been invested in creating a body of code together."
-    , urlLink: "/bposts/a1"
+    , urlLink: "/bposts/code-complexity-metrics"
     , image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/blog/office-laptops.png"
     , imageDesc: "code complexity visualized"
     , author: author_1
@@ -38,7 +38,7 @@ const blogArticles : BlogArticle[] = [
     category: "Article"
     , title: "HR implications of Statistical Coding"
     , description: "Predicting the effect on the job market of the advent of generative AI's Statistical Coding."
-    , urlLink: "/bposts/a2"
+    , urlLink: "/bposts/hr-implications-of-statistical-coding"
     , image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/blog/office-laptops-2.png"
     , imageDesc: "code complexity visualized"
     , author: author_1

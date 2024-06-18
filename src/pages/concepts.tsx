@@ -103,7 +103,7 @@ export default function ConceptsPage() {
         </p>
         <p className="mt-5">
           The reality is that parallel processing, the essence of distributed computing, is still poorly understood by computer scientists. Perhaps the
-          most promising work on that topic is <CuteLink href={"https://en.wikipedia.org/wiki/Jean-Yves_Girard"}>Jean-Yves Girard&apos;s</CuteLink> 
+          most promising work on that topic is <CuteLink href={"https://en.wikipedia.org/wiki/Jean-Yves_Girard"}>Jean-Yves Girard&apos;s</CuteLink>
           <CuteLink href={"https://en.wikipedia.org/wiki/Linear_logic"}>Linear Logic</CuteLink> (LL). Girard came up with LL in the
           mid-80&apos;s, trying to find peace with the idea that if effectively <i className="text-yellow-700 dark:text-yellow-300">3 + 3 = 6</i>, we should feel that we only need to write either&nbsp;
           <i className="text-yellow-700 dark:text-yellow-300">3 + 3</i> or <i className="text-yellow-700 dark:text-yellow-300">6</i> but not both. But as intuitively writing both sides of the equation feels like the right thing to do,&nbsp;
@@ -171,13 +171,13 @@ export default function ConceptsPage() {
           surrounding environment, the end-user reactions, the sponsored marketing and a few more sources. It is very difficult to imagine implementing
           such a cooperative (if competitive) organisation of dynamic content if there isn&apos;t more advanced and high-level structural and event propagation
           models to achieve the interactivity amongst all content elements.  The current organisation approach is still the windowing system: visual
-          rectangular areas on the screen (either windows or popups) that deifne the context of content and interaction. It is clear that there needs to
+          rectangular areas on the screen (either windows or popups) that define the context of content and interaction. It is clear that there needs to
           be mechanisms for cooperative computing across content, but the <em>Share button</em> solution provided by iOS and Android OS is too simplistic
           to be the answer. History repeats and the Web has a significant advantage: contrary to the OS, the open nature of the content and computing model within the browser
           context enables anyone to provide new solutions and doesn&apos;t need to wait for either Apple or Google to figure it out.
         </p>
         <p className="mt-5">
-          Mathematica and then Jupyter Notebooks have lead the path to more interactive content model. The mix of data and code into dynamic cells that
+          Mathematica and then <CuteLink href="https://docs.jupyter.org/en/latest/#what-is-a-notebook">Jupyter Notebooks</CuteLink> have lead the path to more interactive content model. The mix of data and code into dynamic cells that
           imply a computing capacity and interpretative logic for content units provides some important features for highly interactive content. The
           <FuddEco /> must foster such approach by using it for its own documentation, and by providing the necessary tools that facilitate and accelerate
           the creation, hosting and expansion of interactive documents.
@@ -197,10 +197,10 @@ export default function ConceptsPage() {
           trying to do so. Taking that as a more precise goal for gamification, the <FuddEco /> must provide the solutions for developers and content
           providers to increase the enjoyment of people&apos;s interaction with their work by adding strategic frameworks and entertaining elements that lead
           to winning something, also meaning that there will be scoring, benchmarks and all other items that indicate to people they are improving and
-          getting closer to a successful outcome. 
+          getting closer to a successful outcome.
         </p>
         <p className="mt-5">
-          For the <FuddEco /> to provide a proper support to gamification, it must have the following features: 
+          For the <FuddEco /> to provide a proper support to gamification, it must have the following features:
         </p>
         <ul className="pl-6 py-1 list-disc">
           <li>increasing levels of complexity,</li>
@@ -223,7 +223,7 @@ export default function ConceptsPage() {
           best technology for AI that we&apos;ll have to aid the software development process for the foreseable future.
         </p>
         <p className="mt-5">
-          Just for fun, the following text was provided by Copilot as a suggestion for the next paragraph:
+          Just for fun, Copilot suggested the following text for the next paragraph as I started writing it:
         </p>
         <blockquote className="mt-3 border-l-4 border-primary-200 pl-4">
           The main advantage of AI statistical coding is that it can provide a lot of help to the developer in
@@ -233,18 +233,19 @@ export default function ConceptsPage() {
         </blockquote>
         <p className="mt-5">
           The purely statistical nature of LLM means its support to the development process lacks the logical consistency
-          that required to create complex applications that are bug-free and meeting the specs.
+          that is required to create complex applications that are bug-free and meeting the specs.
           Instead we observe that hallucinations, surprisingly elementary errors and a lack of creativity limit their
-          application to simple situations. Nonetheless
-          software development still implies a lot of those simple boiler-plate situations that junior or low-quality
-          developers easily learn and apply, meaning that AI aided coding will quickly automatize these jobs in the
-          near future with matching results in product quality. It also means that experienced and high-quality developers
-          will have more freedom to focus on big picture and innovative elements of applications, and they will work on
-          more advanced environments as the leveling towards the bottom required to support the mass of low-quality
-          developers will go away.
+          application to simple situations.
+          But as the state of software development today still implies a lot of simple boiler-plate situations that
+          elementary skilled developers easily learn and apply (<i>copy-pasta!</i>), it&apos;s likely that AI generative coding
+          will automatize these jobs in the
+          near future with similar results in coding quality. It also means that experienced and highly skilled developers
+          will have more freedom to focus on big picture and innovative elements of applications. And importantly, they will
+          be able to work on more advanced environments as the leveling towards the bottom that is required today to be
+          compatible with the mass of elementary skilled developers won&apos;t be necessary anymore.
         </p>
         <p className="mt-5">
-          It also means that being a junior developer will not mean anymore that you are a low-quality developer, but
+          It also means that being a junior developer will not mean anymore that you are a unskilled developer, but
           that you haven&apos;t had much time in the workforce. The general ability for junior developers to work with
           advanced tools, algorithms and systems will significantly increase, as this will be the only way to compete
           with the AI aided coding.
