@@ -101,7 +101,7 @@ export default function Navigation( { currentItem = "HOME", isLogged = false } :
     , {
       label: "Discord"
       , key: "DISCORD"
-      , destUrl: "https://discord.com/whatsupfudd"
+      , destUrl: "https://discord.gg/5m6gjau5Jy"
     }
     , {
       label: "GitHub"
