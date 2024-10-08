@@ -27,14 +27,14 @@ const projects : ProjectDesc[] = [
   }
   , {
     label: "EasyWordy: Wordpress recycler - extender"
-    , description: "EasyWordy is a Wordpress compatible website server that enables a smooth transition out of the PHP and Wordpress architecture into modern frameworks."
+    , description: "EasyWordy is a Wordpress-compatible CMS that enables an easy and very gradual transition out of the PHP and Wordpress architecture and into modern web frameworks."
     , destUrl: "/projects/easy-wordy"
     , image: "/img/projects/easywordy_1.png"
   }
   , {
     label: "VSocMed: AI website generator"
-    , description: "VScoNet transforms a short description into a full-fledged static website that includes sections, images, community management."
-    , destUrl: "/projects/socnet-creator"
+    , description: "VSocMed transforms a short description into a full-fledged static website that includes sections, images, community management."
+    , destUrl: "/projects/vsocmed-creator"
     , image: "/img/projects/vsocmed_1.png"
   }
   , {
