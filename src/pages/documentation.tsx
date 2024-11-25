@@ -32,6 +32,12 @@ const projects : ProjectDesc[] = [
     , image: "/img/projects/easywordy_1.png"
   }
   , {
+    label: "KnowDoc"
+    , description: "The KnowDoc system is a just-in-time documentation and knowledge system that developers rely on to quickly get rid of blocks in their daily work."
+    , destUrl: "/projects/knowdoc"
+    , image: "/img/projects/knowdoc_1.jpg"
+  }
+  , {
     label: "VSocMed: AI website generator"
     , description: "VSocMed transforms a short description into a full-fledged static website that includes sections, images, community management."
     , destUrl: "/projects/vsocmed-creator"
@@ -132,6 +138,16 @@ export default function DocumentationPage() {
       that provides us with a powerful set of features
     </p>
     <Link href="/concepts" className="inline-flex items-center py-3 px-5 font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+      Find out more
+        <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+    </Link>
+    <br />
+    <h1 className="mt-10 text-2xl mb-4">A Roadmap</h1>
+    <p className="mb-6">
+      Implementing the <b className="text-rose-900 dark:text-rose-300">FUDD</b> ecosystem is not a simple task. We regularly revise the roadmap to
+      achieve the top priorities (SPPM) on an agile philosophy and integrate community feedback into the development cycle.
+    </p>
+    <Link href="/roadmap" className="inline-flex items-center py-3 px-5 font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
       Find out more
         <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
     </Link>

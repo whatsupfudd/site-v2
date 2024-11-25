@@ -12,8 +12,8 @@ function ShowArguments({ args }: { args: Argument[] }) {
       {
       args.map((argument, index) => (
         <div key={index} className="rounded-xl mt-5 pb-3 flex-1 lg:max-w-72 dark:bg-gradient-to-t dark:from-gray-900 dark:to-transparent">
-          <h1 className="text-3xl pb-4">{argument.title}</h1>
-          <p className="text-lg">
+          <h1 className="text-3xl pb-4 text-primary-700 dark:text-primary-200">{argument.title}</h1>
+          <p className="text-lg mx-1">
             {argument.description}
           </p>
         </div>
@@ -32,7 +32,7 @@ export function WorkInProgress() {
 }
 
 export default function AnonymousHero() {
-  const allArguments: Argument[] = [
+  const allArguments_v1: Argument[] = [
     {
       title: 'accessible',
       description: "The FUDD ecosystem is giving easy access to advanced technology that is normally used by a small group of priviledge software developers. We are making it easy for everyone to understand and use these technologies to build amazing things."
@@ -47,6 +47,21 @@ export default function AnonymousHero() {
     },
   ]
 
+  const allArguments_v2: Argument[] = [
+    {
+      title: 'simplicity',
+      description: "People want simple tools. It makes total sense... but how do we confirm we provide simplicity? At FUDD, we have defined a metric to benchmark our work and make sure that we deliver simplicity consistently. Our benchmark can even measure other tools so we know we are either outperforming the alternative solutions or we haven't reached our goal yet!"
+    },
+    {
+      title: 'sppm',
+      description: "Security, Productivity, Performance and Maintenance: the 4 priorities of the FUDD ecosystem. Day after day we read stories about people agonising over breaches, features that are years late in deployment, application speed that frustrate users and code bases that are frozen in the past with no way to unstuck them. If AI, crypto and the methaverse are upon us, we better clean up this mess or we're definitely doomed."
+    },
+    {
+      title: 'ai-proof',
+      description: "The most understood element about AI is that it implies upskilling. How can you move upward if the tech you use is stuck at the bottom? FUDD ecosystem has plenty of expansion capacity to stay relevant in the AI-accelerated development world we're transitioning in."
+    },
+  ]
+
 
   return (<>
     <section className="h-[50vh] md:h-[70vh] lg:h-[70vh] bg-[url('/img/bugOnAJourney_2.jpg')] bg-no-repeat bg-cover bg-center">
@@ -57,7 +72,7 @@ export default function AnonymousHero() {
               <button className="text-center rounded-full p-3 tracking-widest text-rose-600 bg-gray-100/70">FUDD</button>
             </p>
             <p className="mb-6 ml-6 sm:max-w-64 rounded-2xl text-center inline-flex items-center font-light text-gray-200 bg-gray-900/50 dark:text-gray-100 lg:mb-8 md:text-lg lg:text-xl">
-              Fear, Uncertainty, Doubt: Debunked! An advanced functional programming ecosystem for the web.
+              Maximizing Security, Productivity, Performance and Maintenance aspects of web applications.
             </p>
           </div>
           <div className="pt-40 md:pt-96 lg:pt-96 pl-4">
@@ -72,7 +87,7 @@ export default function AnonymousHero() {
         </div>
       </div>
     </section>
-    <ShowArguments args={ allArguments } />
+    <ShowArguments args={ allArguments_v2 } />
     <WorkInProgress />
   </>)
 }
