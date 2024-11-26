@@ -32,6 +32,12 @@ const projects : ProjectDesc[] = [
     , image: "/img/projects/easywordy_1.png"
   }
   , {
+    label: "Cannelle"
+    , description: "Cannelle is an advanced templating system that recyles PHP, Jekyll, Hugo, Jinja, Gatsby and NextJS templates and also powers the much more advanced Fuddle templating system."
+    , destUrl: "/projects/cannelle"
+    , image: "/img/projects/cannelleTemplating_1.jpg"
+  }
+  , {
     label: "KnowDoc"
     , description: "The KnowDoc system is a just-in-time documentation and knowledge system that developers rely on to quickly get rid of blocks in their daily work."
     , destUrl: "/projects/knowdoc"

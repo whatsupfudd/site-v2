@@ -8,7 +8,7 @@ function KD() {
 }
 
 
-function EasyWordy_2() {
+function KnowDoc_1() {
   return (<>
     <Navigation currentItem={"PROJECTS/EASYWORDY"} />
     <div className="py-8 flex justify-center flex-col text-black dark:text-white">
@@ -28,4 +28,4 @@ function EasyWordy_2() {
 }
 
 
-export default EasyWordy_2;
+export default KnowDoc_1;
