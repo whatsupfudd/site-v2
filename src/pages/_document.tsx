@@ -16,6 +16,7 @@ export default function Document() {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js" async></script>
         <script src="/js/modeSwitcher.js" async></script>
         <script src="/js/prism.js" async></script>
+        <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
       </body>
     </Html>
   )

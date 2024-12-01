@@ -17,6 +17,22 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "i0.wp.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.legaltechdesign.com",
+      },
+      {
+        protocol: "https",
+        hostname: "i.sstatic.net",
+      },
+    ],
+  },
 };
 
 export default config;
